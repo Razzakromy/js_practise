@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zxx">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="title" content="Razzak Romy">
+  <meta name="description" content="Razzak Romy Official Website">
+  <meta name="keywords" content="Razzak Romy, razzakromy, Official Website, frontend, fullstack">
+  <meta name="robots" content="index, follow">
+  <meta name="revisit-after" content="15 days">
+  <meta name="author" content="razzakromy">
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <title>JS Practise</title>
+</head>
+
+<body>
+  <div class="container mt-5">
+    <h1>Selector</h1>
+    <button class="btn btn-dark" onclick="txtChange()">Click - Change Text</button>
+    <h3 id="s_1">selector</h3>
+    <button class="btn btn-dark" ondblclick="bgChng()">Dbl Click - Change Background</button>
+    <h3 id="chngbg">selector</h3>
+    <button class="btn btn-dark" onmouseover="fSChng()">MouseOver - Change Font Size</button>
+    <h3 id="fontSize">Assalamualaikum</h3>
+    <button class="btn btn-dark" onmouseout="clrChng()">MouseOut - Change Font Size</button>
+    <h3 id="colorchng">Assalamualaikum</h3>
+    <button class="btn btn-dark" onmouseleave="ffChng()">MouseLeave - Change Font Family</button>
+    <h3 id="ffchng">Assalamualaikum</h3>
+    <h2>The getElementsByClassName() Method</h2>
+
+    <p>Change the text of the first element with class="example":</p>
+    <button class="btn btn-secondary" onmousewheel="cn()">
+      MouseWheel - replace element1
+    </button>
+    <div class="example">Element1</div>
+    <div class="example">Element2</div>
+
+    <h2>The document.getElementsByName Method</h2>
+    <button class="btn btn-success" onclick="n()">
+      count input
+    </button>
+    Cats:
+    <input name="animal" type="checkbox" value="Cats">
+    Dogs:
+    <input name="animal" type="checkbox" value="Dogs">
+    <p>Number of elements with name="animal" is:</p>
+    <span id="name" class="bg-primary text-light"></span>
+
+    <h3>Change the background color of the first element with the classes "example" and "color":</h3>
+    <button class="btn btn-success mb-2" onclick="cn2()">
+      bg & txt color change
+    </button>
+    <div class="example2">
+      <p>This is a paragraph.</p>
+    </div>
+    <br>
+    <div class="example2 color">
+      <p>This is a paragraph.</p>
+    </div>
+    <br>
+    <div class="example2 color">
+      <p>This is a paragraph.</p>
+    </div>
+    <h2>The getElementsByTagName() Method</h2>
+    <button class="btn btn-success mb-2" onclick="tn()">
+      show one list item
+    </button>
+    <p>An unordered list:</p>
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+
+    <p>The innerHTML of the second li element is:</p>
+    <p id="tagname"></p>
+    <h3>TagName2</h3>
+    <button class="btn btn-success mb-2" onclick="tn2()">
+      replace text
+    </button>
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+
+    <input type="text" onfocus="focusOn(this)">
+
+    <h2>Window Alert</h2>
+    Select some of the text: <input type="text" value="Hello world!" onselect="onS()">
+
+    <input type="text" onkeydown="okd()" value="onKeyDown">
+    <form action="#" onsubmit="onSub()">
+      Enter name: <input type="text" name="fname">
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+
+
+
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
